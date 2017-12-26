@@ -13,7 +13,7 @@ The game is played in a board: every tile of the board corresponds to a cell whi
 - All updates are performed simultaneously **in parallel**.
 
 ## Implementation
-The game has been implemented by using Numpy and Scipy to define the model and to update the state, while PyQT has been used to implement the graphic user interface. The pattern MVC has been used to obtain a separation of concerns between the classes involved in the game.
+The game has been implemented by using Numpy and Scipy to define the model and to update the state, while PyQT has been used to implement the graphic user interface. The pattern MVC has been used to obtain a separation of concerns between the classes involved in this implementation.
 
 ### Model
 The model has been implemented in the class `GameOfLifeModel`. This class provides a model that represents the state in which the cells live. It also provides methods to get and set information, load, save and clear a state and a method that compute the evolution of the states by convolution (the rules of the game).
@@ -21,4 +21,6 @@ The model has been implemented in the class `GameOfLifeModel`. This class provid
 ### Graphic User Interface
 The GUI (it corresponds to the View and Controller of MVC) has been in the class `MainWindow`. This class provides an interface for the user so that to allow him to play the game. The GUI uses some custom Widgets. The most important custom widget is the Board that is used to show the model and the evolution of the states. This class is called `GameOfLifeBoard` and takes advantage of sparsity of the model to quickly update the view, from a state to another.
 
-### 
+## Functionality
+
+
