@@ -18,7 +18,7 @@ The game has been implemented by using Numpy and Scipy to define the model and t
 ### Model
 The model has been implemented in the class `GameOfLifeModel`. This class provides a model that represents the state in which the cells live. It also provides methods to get and set information, load, save and clear a state and a method that compute the evolution of the states by convolution (the rules of the game).
 
-### Graphic User Interface
+### View & Controller
 The GUI (it corresponds to the View and Controller of MVC) has been in the class `MainWindow`. This class provides an interface for the user so that to allow him to play the game. 
 The GUI uses some custom Widgets. The most important custom widget is the Board that is used to show the model and the evolution of the states. This class is called `GameOfLifeBoard` and takes advantage of sparsity of the model to quickly update the view, from a state to another. 
 This class also provides widget to create dialog widgets, used to load and save patterns.
