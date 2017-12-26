@@ -27,7 +27,7 @@ from PyQt5.QtWidgets import (QSlider, QLabel, QPushButton, QVBoxLayout, QHBoxLay
 from GameOfLifeBoard import GameOfLifeBoard
 from MyWidgets import PlayPauseStepButton, infoLabel, loadWindow, saveWindow
 
-### THE GUI
+### THE GUI - View and Controller
 
 class MainWindow(QWidget):
     """ Class that implements the main window 
