@@ -22,5 +22,5 @@ The model has been implemented in the class `GameOfLifeModel`. This class provid
 The GUI (it corresponds to the View and Controller of MVC) has been in the class `MainWindow`. This class provides an interface for the user so that to allow him to play the game. The GUI uses some custom Widgets. The most important custom widget is the Board that is used to show the model and the evolution of the states. This class is called `GameOfLifeBoard` and takes advantage of sparsity of the model to quickly update the view, from a state to another.
 
 ## Functionality
-
+<img width="752" alt="schermata 2017-12-26 alle 17 43 27" src="https://user-images.githubusercontent.com/29773493/34360883-4f6f8c30-ea65-11e7-95ba-0cf433b9f43b.png">
 
