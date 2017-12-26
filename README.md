@@ -11,3 +11,14 @@ The game is played in a board: every tile of the board corresponds to a cell whi
 - Each populated location with two or three neighbors survives.
 - Each unpopulated location becomes populated if it has exactly three populated neighbors (**birth**). 
 - All updates are performed simultaneously **in parallel**.
+
+## Implementation
+The game has been implemented by using Numpy and Scipy to define the model and to update the state, while PyQT has been used to implement the graphic user interface. The pattern MVC has been used to obtain a separation of concerns between the classes involved in the game.
+
+### Model
+The model has been implemented in the class `GameOfLifeModel`. This class provides a model that represents the state in which the whole cells live. It also provides methods to get and set information, load, save and clear a state and a method that compute the evolution of the states by convolution (the rules of the game).
+
+Attributes:
+- cells             the current state of the Game.
+- aliveCells        the number of alive cells.
+- generation        the current generation in which current State's cells live.
