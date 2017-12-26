@@ -42,5 +42,7 @@ This implementation provides some functionalities:
 
 ### Simulation
 
+## License
+Licensed under the term of [MIT License](http://en.wikipedia.org/wiki/MIT_License). See attached file LICENSE.
 
 
