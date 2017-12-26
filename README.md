@@ -19,6 +19,8 @@ The game has been implemented by using Numpy and Scipy to define the model and t
 The model has been implemented in the class `GameOfLifeModel`. This class provides a model that represents the state in which the whole cells live. It also provides methods to get and set information, load, save and clear a state and a method that compute the evolution of the states by convolution (the rules of the game).
 
 Attributes:
-- cells             the current state of the Game.
-- aliveCells        the number of alive cells.
-- generation        the current generation in which current State's cells live.
+- **cells**: the current state of the Game.
+- **aliveCells**: the number of alive cells.
+- **generation**: the generation in which current State's cells live.
+
+### Graphic User Interface
