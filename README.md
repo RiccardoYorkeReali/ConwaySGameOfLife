@@ -19,9 +19,28 @@ The game has been implemented by using Numpy and Scipy to define the model and t
 The model has been implemented in the class `GameOfLifeModel`. This class provides a model that represents the state in which the cells live. It also provides methods to get and set information, load, save and clear a state and a method that compute the evolution of the states by convolution (the rules of the game).
 
 ### Graphic User Interface
-The GUI (it corresponds to the View and Controller of MVC) has been in the class `MainWindow`. This class provides an interface for the user so that to allow him to play the game. The GUI uses some custom Widgets. The most important custom widget is the Board that is used to show the model and the evolution of the states. This class is called `GameOfLifeBoard` and takes advantage of sparsity of the model to quickly update the view, from a state to another.
+The GUI (it corresponds to the View and Controller of MVC) has been in the class `MainWindow`. This class provides an interface for the user so that to allow him to play the game. 
+The GUI uses some custom Widgets. The most important custom widget is the Board that is used to show the model and the evolution of the states. This class is called `GameOfLifeBoard` and takes advantage of sparsity of the model to quickly update the view, from a state to another. 
+This class also provides widget to create dialog widgets, used to load and save patterns.
 
-## Functionality
+## Functionalities
 The GUI appears like: 
 <img width="752" alt="schermata 2017-12-26 alle 17 43 27" src="https://user-images.githubusercontent.com/29773493/34360941-f6ab35da-ea65-11e7-9964-6299b8539a16.png">
+
+This implementation provides some functionalities:
+- **Play/Pause & Step by Step**: The user can start playing the game by clicking on the play/pause button. If the user activates the 'Step by Step' mode clicking on the related checkbox, it is possible to see the evolution of the states one step at a time.
+- **Load & Save a Pattern**: The user can save own patterns by clicking the save button. Once a pattern has been saved, it is also possible to load it: clicking on the load button, a dialog Widget will be opened and the user can choose between known patterns and own pattern.
+- **Clear the Board**: The user can clear all the board by clicking on the clear button.
+- **Speed of Computation**: The user can change the speed of the computation of the evolution of the states, by using the speed slider.
+- **Real Time Information**: The user can see information about the number of alive cells and the generation reached during the game.
+- **Colors**: To keep track of the age of a cell, the game provides different color for each tile:
+1. Black: inactive cell.
+2. White: active (alive) cell.
+3. Lime: new born cell.
+4. Green: cell that lives for more than one generation.
+5. Silver: cell that is inactive and has dead at least once.
+
+### Simulation
+
+
 
