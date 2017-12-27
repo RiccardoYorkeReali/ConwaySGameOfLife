@@ -43,11 +43,12 @@ This implementation provides some functionalities:
 ### Simulation
 - Activating and disactivating cells, play and pause the game, using "Step by Step" mode, change speed, clear the board.
 
-![gameoflife](https://user-images.githubusercontent.com/29773493/34387381-1f908e8c-eb2e-11e7-8e98-ce8a022a2456.jpg)
+![gameoflife](https://user-images.githubusercontent.com/29773493/34387531-0349a7a8-eb2f-11e7-9009-ea5940347079.gif)
+
 
 - Loading and saving patterns
 
-![gameoflife2](https://user-images.githubusercontent.com/29773493/34387407-4315bab2-eb2e-11e7-88ba-39a0eff6ff08.jpg)
+![gameoflife2](https://user-images.githubusercontent.com/29773493/34387553-208ddcee-eb2f-11e7-8bca-e62309b1e172.gif)
 
 
 ## License
