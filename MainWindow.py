@@ -27,7 +27,7 @@ from PyQt5.QtWidgets import (QSlider, QLabel, QPushButton, QVBoxLayout, QHBoxLay
 from GameOfLifeBoard import GameOfLifeBoard
 from MyWidgets import PlayPauseStepButton, infoLabel, loadWindow, saveWindow
 
-### THE GUI - View and Controller
+### THE GUI
 
 class MainWindow(QWidget):
     """ Class that implements the main window 
@@ -61,6 +61,7 @@ class MainWindow(QWidget):
 
         #Frame-Rate Slider
         self.frameRateSlider = QSlider(Qt.Horizontal)
+        self.frameRateSlider.setFixedWidth(150)
         self.frameRateSlider.setMinimum(1)
         self.frameRateSlider.setMaximum(500)
         self.frameRateSlider.setValue(250)
@@ -99,12 +100,12 @@ class MainWindow(QWidget):
         commandBoxLayout = QHBoxLayout()
         commandBoxLayout.addWidget(QLabel('Speed: '))
         commandBoxLayout.addWidget(self.frameRateSlider)
-        commandBoxLayout.addStretch()
+        commandBoxLayout.addStretch(1)
         playPauseLayout = QVBoxLayout()
         playPauseLayout.addWidget(self.playPauseStepButton)
         playPauseLayout.addWidget(self.stepByStepMod)
         commandBoxLayout.addLayout(playPauseLayout)
-        commandBoxLayout.addStretch()
+        commandBoxLayout.addStretch(2)
         commandBoxLayout.addWidget(self.clearButton)
         commandBoxLayout.addWidget(self.saveButton)
         commandBoxLayout.addWidget(self.loadButton)
