@@ -41,6 +41,14 @@ This implementation provides some functionalities:
 5. Silver: cell that is inactive and has dead at least once.
 
 ### Simulation
+- Activating and disactivating cells, play and pause the game, using "Step by Step" mode, change speed, clear the board.
+
+![gameoflife](https://user-images.githubusercontent.com/29773493/34387381-1f908e8c-eb2e-11e7-8e98-ce8a022a2456.jpg)
+
+- Loading and saving patterns
+
+![gameoflife2](https://user-images.githubusercontent.com/29773493/34387407-4315bab2-eb2e-11e7-88ba-39a0eff6ff08.jpg)
+
 
 ## License
 Licensed under the term of [MIT License](http://en.wikipedia.org/wiki/MIT_License). See attached file LICENSE.
