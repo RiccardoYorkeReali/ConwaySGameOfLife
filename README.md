@@ -25,7 +25,8 @@ This class also provides widget to create dialog widgets, used to load and save 
 
 ## Functionalities
 The GUI appears like: 
-<img width="752" alt="schermata 2017-12-26 alle 17 43 27" src="https://user-images.githubusercontent.com/29773493/34360941-f6ab35da-ea65-11e7-9964-6299b8539a16.png">
+<img width="751" alt="schermata 2017-12-27 alle 18 12 24" src="https://user-images.githubusercontent.com/29773493/34387999-a27f78c8-eb31-11e7-8145-ca2253b2a320.png">
+
 
 This implementation provides some functionalities:
 - **Play/Pause & Step by Step**: The user can start playing the game by clicking on the play/pause button. If the user activates the 'Step by Step' mode clicking on the related checkbox, it is possible to see the evolution of the states one step at a time.
@@ -43,12 +44,10 @@ This implementation provides some functionalities:
 ### Simulation
 - Activating and disactivating cells, play and pause the game, using "Step by Step" mode, change speed, clear the board.
 
-![gameoflife](https://user-images.githubusercontent.com/29773493/34387531-0349a7a8-eb2f-11e7-9009-ea5940347079.gif)
 
 
 - Loading and saving patterns
 
-![gameoflife2](https://user-images.githubusercontent.com/29773493/34387553-208ddcee-eb2f-11e7-8bca-e62309b1e172.gif)
 
 
 ## License
