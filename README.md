@@ -48,6 +48,7 @@ This implementation provides some functionalities:
 
 - Loading and saving patterns
 
+![gameoflife2](https://user-images.githubusercontent.com/29773493/34388844-6baa2c76-eb36-11e7-9205-c4ed017a1484.gif)
 
 ## License
 Licensed under the term of [MIT License](http://en.wikipedia.org/wiki/MIT_License). See attached file LICENSE.
