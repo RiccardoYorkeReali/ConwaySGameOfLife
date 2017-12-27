@@ -44,11 +44,10 @@ This implementation provides some functionalities:
 ### Simulation
 - Activating and disactivating cells, play and pause the game, using "Step by Step" mode, change speed, clear the board.
 
-![gameoflife](https://user-images.githubusercontent.com/29773493/34388219-c652a3f0-eb32-11e7-9d43-98178192b8e4.gif)
+![gameoflife](https://user-images.githubusercontent.com/29773493/34388681-5cb57690-eb35-11e7-9cca-3c9a45a2b0ad.gif)
 
 - Loading and saving patterns
 
-![gameoflife2](https://user-images.githubusercontent.com/29773493/34388338-5dda0e0c-eb33-11e7-8cab-d151a7bfa353.gif)
 
 ## License
 Licensed under the term of [MIT License](http://en.wikipedia.org/wiki/MIT_License). See attached file LICENSE.
