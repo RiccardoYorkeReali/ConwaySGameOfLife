@@ -41,7 +41,7 @@ if __name__ == '__main__':
 	#The Model
     model = GameOfLifeModel() 
 
-    #The View
+    #The View and Controller
     window = MainWindow(model) 
     window.setStyleSheet(style)
     sys.exit(app.exec_())
