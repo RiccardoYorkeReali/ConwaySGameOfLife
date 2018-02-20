@@ -30,7 +30,7 @@ from MyWidgets import PlayPauseStepButton, infoLabel, loadWindow, saveWindow
 ### THE GUI
 
 class MainWindow(QWidget):
-    """ Class that implements the main window 
+    """ Class that implements the main window (view/Controller)
         
         Attributes:
             model     reference to the model
